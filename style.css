@@ -12,15 +12,17 @@
 #name {
 	float: left;
   font-size:21px;
-
+  font-family:Arial;
+ color: #444444;
 }
 
 #contactDetails {
 	float: right;
+  font-family:Arial;
   background-color:white;
   text-decoration: none;
   color:#181818;
-  margin-right:100px;
+ margin-right:100px;
 }
 #linhahorizontal1{
   width:1100px;
@@ -29,15 +31,21 @@
   margin-left:50px
 }
 
+ #linhahorizontal2{
+  width:1060px;
+  border:1px solid;
+  color:#dedede;
+  margin-left:100px;
+}
+ 
+#linhahorizontal3{
+  width:1060px;
   #linhahorizontal2{
   width:1060px;
   border:1px solid;
   color:#dedede;
   margin-left:100px;
 }
-
-#linhahorizontal3{
-  width:1060px;
   border:1px solid;
   color:#dedede;
   margin-left:100px;
@@ -52,7 +60,7 @@
 
 .sectionTitle {
 	float: left;
-  font-family:Lato;
+  font-family:Arial;
   font-size:20px;
 	width: 25%;
   color:#cf8a05;
@@ -61,11 +69,13 @@
 }
 #keyskilloperate{
   column-count:2;
+  font-family:Arial;
 }
 
 .sectionContent {
 	float: left;
 	width:50.0%;
   margin-left:10px;
-  color:#444444;
+  color:#181818;
+  font-family:Arial;
 }
